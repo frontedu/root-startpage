@@ -33,7 +33,7 @@ body {
   }
 }
 .header__greet__name {
-  color: #6c5dd3;
+  color: #d3bd9a;
 }
 .header__date {
   color: rgba(239, 249, 240, 0.4);
@@ -45,7 +45,7 @@ body {
   }
 }
 .header__date__date {
-  color: #6c5dd3;
+  color: #d3bd9a;
 }
 .header__time {
   color: #eff9f0;
@@ -88,7 +88,7 @@ body {
 .card:link:hover,
 .card:visited:focus,
 .card:visited:hover {
-  color: #6c5dd3;
+  color: #d3bd9a;
   border-color: currentColor;
 }
 .card:link:focus > .card__name,
@@ -106,3 +106,10 @@ body {
   transition: 0.2s;
 }
 /*# sourceMappingURL=/main.1e240c8d.css.map */
+
+@media screen and (max-width: 1900px) {
+  .xl-card{
+    display: none !important;
+  }
+}
+
